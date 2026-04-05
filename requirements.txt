@@ -1,0 +1,35 @@
+# Core
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+
+# Econometrics & statistics
+statsmodels>=0.14        # OLS, panel regressions, Newey-West HAC, ADF, Ljung-Box, Durbin-Watson
+
+# Time-series (TVP-VAR implemented from scratch using numpy/pandas)
+# No external TVP-VAR package — forgetting-factor recursion coded directly in
+# src/Volatility_Spillover/Volatility_Spillover.ipynb
+
+# Market microstructure (all metrics implemented from scratch)
+# Corwin-Schultz spread, Amihud ILLIQ, VPIN, Kyle's lambda via OFI:
+# see src/SVB_Crisis_Analysis/Liquidity_Analysis_SVB/ notebooks
+
+# Data collection
+requests>=2.31           # Exchange REST API calls in OHLCV_Multi_Source_Collector.ipynb
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.13
+
+# Excel / data I/O
+openpyxl>=3.1            # Read/write .xlsx files (circleassets, tetherassets, Reserves)
+xlrd>=2.0
+
+# Notebook
+jupyter>=1.0
+ipykernel>=6.0
+
+# Utilities
+python-dateutil>=2.8
+pytz>=2023.3
+tqdm>=4.66               # Progress bars in data collection loops
