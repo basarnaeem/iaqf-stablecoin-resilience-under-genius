@@ -1,4 +1,4 @@
-=# Reserve-ior Dogs: The Great Stablecoin Standoff
+# Reserve-ior Dogs: The Great Stablecoin Standoff
 **IAQF Student Competition 2026 | Team: YieldCurveSurfers | UCLA Anderson MFE**
 
 > *Thin Cushions and False Security: Evaluating Stablecoin Resilience under the GENIUS Act*
@@ -49,6 +49,12 @@ This repository contains the full research codebase for our IAQF 2026 submission
 | GENIUS Act compliance | Circle: compliant. Tether: non-compliant. Tether is more resilient to the scenario that actually occurred. |
 
 **Central thesis:** The GENIUS Act's reserve mandates address asset quality but not loss-absorbing capital. A mandatory minimum equity buffer ratio — analogous to the Basel III Leverage Ratio — is the missing complement.
+
+---
+
+## Submission Paper
+
+📄 **[YieldCurveSurfers — IAQF 2026 Submission (PDF)](./YieldCurveSurfers_IAQF2026_StablecoinResilience_GENIUS_Act.pdf)**
 
 ---
 
@@ -140,6 +146,7 @@ YieldCurveSurfers/
 ├── results/                                 # Output figures (see below)
 ├── .gitignore
 ├── requirements.txt
+├── YieldCurveSurfers_IAQF2026_StablecoinResilience_GENIUS_Act.pdf
 └── README.md
 ```
 

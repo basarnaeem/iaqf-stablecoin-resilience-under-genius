@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Bloomberg / proprietary data — never commit
+data/Bloomberg data/Countrydata_riskindicator.xlsx
+data/Bloomberg data/Data values_longer.xlsx
+data/Bloomberg data/Large country dataset_values.xlsx
+data/Bloomberg data/currency_stress_results.xlsx
+data/Bloomberg data/traditional_market_data.xlsx
+
+# CoinAPI order book data (if stored locally)
+data/**/*orderbook*
+data/**/*level2*
+data/**/*L2*
+
+# Credentials / API keys
+*.key
+secrets.py
+config_local.py
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Large raw files (keep cleaned versions, ignore very large raws if needed)
+# Uncomment below if any raw CSVs exceed GitHub's 100MB limit:
+# data/Coinbase/*.csv
+# data/Binance/*.csv
